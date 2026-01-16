@@ -1,0 +1,27 @@
+header img {
+    width: 10rem;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    background-color: #333;
+    border: 2px solid #000;
+    color: #fff;
+
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #333;
+    border: 2px solid #000;
+
+}
