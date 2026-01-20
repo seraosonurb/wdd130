@@ -1,50 +1,44 @@
-:root {
-    --page-font: Arial, Helvetica, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 nav {
-    background-color: darkblue;
+    background-color: rgb(63, 63, 108);
     padding: 10px;
 }
 
 nav a {
-    font-family: var(--page-font);
     color: white;
-    display: block;
+    display: inline;
     padding: 20px;
 }
 
 h1 {
-    font-family: var(--page-font);
-    color: darkblue;
+    color: rgb(47, 47, 77);
 }
 
 img {
     width: 150px;
     height: auto;
-
 }
 
 p {
-    padding: 0;
+    padding: 1px;
+    margin: 10px 5px 0 0;
 }
 
 main {
-    font-family: var(--page-font);
-    max-width: 500px;
+    max-width: 600px;
     height: auto;
 }
 
 aside {
-    font-family: var(--page-font);
     width: 20rem;
     height: auto;
-    margin: 1rem;
-    padding: 1rem;
-    border: 1px solid rgb(0, 0, 0 / 0.2);
-    background-color: #eee;
-    color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -52,8 +46,17 @@ aside img {
     height: auto;
 }
 
+aside h2 {
+    font-size: small;
+    color: #fff;
+    position: absolute;
+    top: 80px;
+    left: 90px;
+}
+
 main img {
-    width: 200px;
+    float: right;
+    width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -61,8 +64,17 @@ main img {
 }
 
 footer {
-    font-family: var(--page-font);
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class selectors */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #333;
+    background-color: rgb(216, 216, 216);
+    color: #232323;
+
 }
