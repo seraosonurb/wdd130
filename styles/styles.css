@@ -1,15 +1,21 @@
+:root {
+    --page-font: Arial, Helvetica, sans-serif;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
 }
 
 nav a {
+    font-family: var(--page-font);
     color: white;
     display: block;
     padding: 20px;
 }
 
 h1 {
+    font-family: var(--page-font);
     color: darkblue;
 }
 
@@ -24,11 +30,13 @@ p {
 }
 
 main {
+    font-family: var(--page-font);
     max-width: 500px;
     height: auto;
 }
 
 aside {
+    font-family: var(--page-font);
     width: 20rem;
     height: auto;
     margin: 1rem;
@@ -53,6 +61,7 @@ main img {
 }
 
 footer {
+    font-family: var(--page-font);
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
