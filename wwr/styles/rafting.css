@@ -27,9 +27,9 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--acent1-color);
+    color: var(--primary-color);
     text-align: center;
-    background-color: var(--secondary-color);
+    background-color: var(--acent1-color);
 }
 
 nav,
@@ -67,7 +67,7 @@ article {
 
 .hero article {
     position: absolute;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     background-color: var(--acent1-color);
     bottom: 20px;
 
