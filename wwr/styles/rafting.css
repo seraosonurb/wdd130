@@ -81,3 +81,68 @@ article {
 footer {
     border-top: #000 dotted;
 }
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+nav {
+    align-content: center;
+}
+
+/* SECTION */
+.history {
+    display: grid;
+    grid-template-columns: 290px 200px 300px;
+    grid-template-rows: 30px 300px;
+    align-items: center;
+    align-content: start;
+}
+
+.history h2 {
+    grid-column: 1/4;
+}
+
+.history .p2 {
+    justify-self: end;
+}
+
+section img {
+    width: 200px;
+    height: auto;
+}
+
+/* ADVENTURE AWAITS */
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    grid-template-rows: repeat(2, auto);
+    gap: 15px;
+    justify-content: center;
+}
+
+.adventure figure {
+    justify-items: center;
+    grid-row: 2;
+}
+
+.adventure img {
+    width: 150px;
+    height: auto;
+    aspect-ratio: .6;
+    object-fit: cover;
+}
+
+/* FOOTER */
