@@ -78,10 +78,6 @@ article {
     width: 125px;
 }
 
-footer {
-    border-top: #000 dotted;
-}
-
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -147,6 +143,7 @@ section img {
 
 /* FOOTER */
 footer {
+    border-top: #000 dotted;
     display: flex;
     align-items: center;
     justify-content: flex-end;
