@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <title>Form activity</title>
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form action="">
+            <div class="form-item" class="column2">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-item" class="column2">
+                <label for="usermail">Email:</label>
+                <input type="email" name="usermail" id="usermail" required>
+            </div>
+            <div class="form-item" class="column1">
+                <label for="browser">What is your favorite browser?</label>
+                <select name="browser" id="browser">
+                    <option value="blank"></option>
+                    <option value="chrome">Google Chrome</option>
+                    <option value="firefox">Mozilla Firefox</option>
+                    <option value="edge">Edge</option>
+                </select>
+            </div>
+            <div class="form-item" class="column1">
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+            <div class="form-item">
+                <label for="feedback">List the places you have lived:</label>
+                <textarea name="feedback" id="feedback" rows="3"
+                  placeholder="Santa Cruz do Sul, Brasíllia, Passo Fundo."></textarea>
+            </div>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
