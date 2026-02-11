@@ -24,14 +24,6 @@ footer {
     margin: 0 auto;
 }
 
-h1,
-h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-    text-align: center;
-    background-color: var(--acent1-color);
-}
-
 nav,
 p,
 section,
@@ -55,6 +47,10 @@ article {
 }
 
 .hero h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    background-color: var(--acent1-color);
     position: absolute;
     top: 20px;
     width: 100%;
@@ -108,6 +104,10 @@ nav {
 }
 
 .history h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    background-color: var(--acent1-color);
     grid-column: 1/4;
 }
 
@@ -141,6 +141,13 @@ section img {
     object-fit: cover;
 }
 
+.adh2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    background-color: var(--acent1-color);
+}
+
 /* FOOTER */
 footer {
     border-top: #000 dotted;
@@ -172,6 +179,13 @@ footer {
     text-align: center;
     width: 200px;
     justify-self: center;
+}
+
+.info h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    background-color: var(--acent1-color);
 }
 
 /* MAPS */
@@ -256,6 +270,10 @@ button {
 
 .serve h2 {
     grid-column: 1/5;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    background-color: var(--acent1-color);
 }
 
 .serve figure {
@@ -270,4 +288,75 @@ figure img {
     height: 200px;
     aspect-ratio: .6;
     object-fit: cover;
+}
+
+/* HOME */
+main h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    background-color: var(--acent1-color);
+}
+
+/* HOMEHERO */
+.homehero {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.homehero img {
+    width: 100%;
+
+}
+
+.homehero h1 {
+    font-family: "Bebas Neue";
+    color: #ffa10a8e;
+    text-align: center;
+    font-size: 20rem;
+    position: absolute;
+    left: 10rem;
+    top: 6rem;
+}
+
+/* NEWSLETTER */
+.signup {
+    padding: 20px;
+    background-color: var(--primary-color);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.signup form {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    justify-self: center;
+    color: #FFA10A;
+    font-family: "Bebas Neue";
+    font-size: 20px;
+}
+
+.signup button {
+    font-family: "Bebas Neue";
+    font-size: 25px;
+    align-self: center;
+}
+
+/* TRIPS */
+.action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.action img {
+    border-radius: 20px;
+}
+
+.home nav {
+    align-items: center;
+    font-family: "Bebas Neue";
 }
