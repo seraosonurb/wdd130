@@ -413,3 +413,112 @@ main h2 {
 .purpose .p1 {
     grid-column: 2;
 }
+
+/* TRIPS */
+.trips h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    background-color: var(--acent1-color);
+}
+
+.trips .person {
+    border-radius: 20px;
+}
+
+.trips h1 {
+    margin-bottom: 20px;
+}
+
+.trip1 figure,
+.trip2 figure,
+.trip3 figure {
+    justify-items: center;
+}
+
+/* TRIP1 */
+.trip1 {
+    display: grid;
+    grid-template-rows: 27px 400px 300px;
+}
+
+.trip1 .experience {
+    display: block;
+    grid-row: 2;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.trip1 p,
+figure {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.trip1 figure {
+    justify-self: end;
+    margin: 30px 40px 0 0;
+}
+
+.trip1 p {
+    width: 500px;
+    padding: 40px;
+    font-size: 20px;
+}
+
+/* TRIP2 */
+.trip2,
+.trip3 {
+    display: grid;
+    grid-template-rows: 27px 400px 300px;
+}
+
+.trip2 .experience,
+.trip3 .experience {
+    display: block;
+    grid-row: 2;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.trip2 p,
+figure,
+.trip3 p,
+.trip3 figure {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.trip2 figure {
+    justify-self: start;
+    margin: 30px 0 0 40px;
+    border-radius: 20px;
+}
+
+.trip2 p {
+    justify-self: end;
+    width: 500px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+/* TRIP3 */
+.trip3 figure {
+    justify-self: end;
+    margin: 30px 40px 0 0;
+}
+
+.trip3 p {
+    width: 500px;
+    padding: 40px;
+    font-size: 18px;
+}
