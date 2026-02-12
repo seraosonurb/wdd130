@@ -349,7 +349,7 @@ main h2 {
     background-color: var(--secondary-color);
 }
 
-/* TRIPS */
+/* HOME TRIPS */
 .action {
     display: flex;
     flex-direction: row;
@@ -414,7 +414,7 @@ main h2 {
     grid-column: 2;
 }
 
-/* TRIPS */
+/* TRIPS PAGE */
 .trips h1,
 h2 {
     font-family: var(--heading-font);
@@ -491,7 +491,7 @@ figure {
 }
 
 .trip2 p,
-figure,
+.trip2 figure,
 .trip3 p,
 .trip3 figure {
     grid-row: 3;
@@ -522,3 +522,27 @@ figure,
     padding: 40px;
     font-size: 18px;
 }
+
+/* TABLE */
+table {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+    border-collapse: collapse;
+    border: 1px solid var(--secondary-color);
+}
+
+thead {
+    background-color: #FFA10A;
+    border: 1px solid var(--secondary-color);
+}
+
+th,
+td {
+    border: 1px solid var(--secondary-color);
+    padding: 8px 10px;
+    text-align: center;
+}
+
+/* BUTTON */
