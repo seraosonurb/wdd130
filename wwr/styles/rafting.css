@@ -122,9 +122,8 @@ section img {
 
 /* ADVENTURE AWAITS */
 .adventure {
-    display: grid;
-    grid-template-columns: repeat(5, 150px);
-    grid-template-rows: repeat(2, auto);
+    display: flex;
+    flex-direction: row;
     gap: 15px;
     justify-content: center;
 }
@@ -264,8 +263,9 @@ button {
 
 /* SERVE */
 .serve {
-    display: grid;
-    grid-template-rows: .2fr 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .serve h2 {
