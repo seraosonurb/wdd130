@@ -546,3 +546,18 @@ td {
 }
 
 /* BUTTON */
+.action-button {
+    width: 800px;
+}
+
+.action-button button {
+    width: 100%;
+    color: var(--primary-color);
+    font-family: "Bebas Neue";
+    font-size: 25px;
+
+}
+
+.action-button button:hover {
+    background-color: #9D0E07;
+}
